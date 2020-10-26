@@ -1,7 +1,7 @@
 
 import java.util.*;
 import java.lang.*;
-class Main {
+class ChangeCharsInGivenStrings {
   public static void main(String[] args) {
     //System.out.println();
     Scanner scanner=new Scanner(System.in);
