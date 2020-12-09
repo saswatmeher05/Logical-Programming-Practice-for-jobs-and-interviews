@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+		background-image:url('images/background.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover;
+		font-family:comic sans ms;
+	}
+	input[type=submit]{
+	background-color:green;
+	color:white;
+	border:none;
+	padding:10px 30px;
+	font-family:comic sans ms;
+	}
+	header{
+	color:red;
+	font-family:comic sans ms;
+	font-size:25px;
+	}
+	input[type=text]{
+	background-color:lightblue;
+	}
+	</style>
+<meta charset="ISO-8859-1">
+</head>
+<body>
+
+<form action="/login" method="post">
+ <div align="center">
+<header>	<h1>Login Page</h1>			</header><br><br>
+<fieldset><legend align="center">Login</legend>
+ Username:<input type="email" name="email"><br><br>
+ Password:<input type="password" name="password" minlength="8"><br><br>
+			<input type="submit" value="Submit">
+ </fieldset>
+ </div>
+<div align="center" id="footer"><a href="index.html"><img alt="Home" src="images/home.png" width="80px" height="50px"></a>	
+							
+</div>
+</form>
+
+</body>
+</html>
