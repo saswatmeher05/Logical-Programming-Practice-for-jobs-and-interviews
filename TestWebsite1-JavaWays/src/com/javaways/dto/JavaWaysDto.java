@@ -9,7 +9,7 @@ public class JavaWaysDto {
 	String cgender;
 	Date cdob;
 	String ccountry;
-String cname;
+	String cname;
 
 
 
